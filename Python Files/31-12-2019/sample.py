@@ -1,0 +1,1 @@
+print("Square" if int(input("Enter len: "))==int(input("Enter bre: ")) else "Rectangle")

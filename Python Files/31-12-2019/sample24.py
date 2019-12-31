@@ -1,0 +1,1 @@
+print("Found" if [1,2,3,'a',2,7,9,2].count(2)>0 else "Not Found")
