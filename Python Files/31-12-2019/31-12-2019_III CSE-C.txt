@@ -1,10 +1,5 @@
-
-
-  1.  Take values of length and breadth of a rectangle from user and check if it is square or not.
-
-
- 2. Take two int values from user and print greatest among them.
-
+1).  Take values of length and breadth of a rectangle from user and check if it is square or not.
+2). Take two int values from user and print greatest among them.
 3) A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
 Ask user for quantity
 Suppose, one unit will cost 100.
@@ -41,7 +36,7 @@ Is student is allowed to sit in exam or not.
 13) Write a python program to create a list from a given string and word.
 14)Write a python program to create a list from a given number.print
 15) Write a python program to create an empty list and add the elements by reading from the user.
-16)Write a python program to print ‘g’ from the following list [2,5,’a’,6,[9,’g’,7]]
+16)Write a python program to print â€˜gâ€™ from the following list [2,5,â€™aâ€™,6,[9,â€™gâ€™,7]]
 17) Write a python program to add an element in above list at 4th position.
 18)Write a python program to get the index of 6 in above list.
 19)Write a python program to join 2 different lists.
