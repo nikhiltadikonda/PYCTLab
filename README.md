@@ -11,7 +11,8 @@
 |---|---|---|---|---|
 |1|12-12-2019|Sample Python Programs|12-10-2019|[12-10-2019](https://github.com/nikhiltadikonda/RPCSLab/tree/master/Python%20Files/12-10-2019)|
 |2|31-12-2019|Python Programs as per Tasks given|31-12-2019|[31-12-2019](https://github.com/nikhiltadikonda/RPCSLab/tree/master/Python%20Files/31-12-2019)|
-|3|28-01-2020|Functions in Python|28-01-2020|[28-01-2020](https://github.com/nikhiltadikonda/RPCSLab/tree/master/Python%20Files/28-01-2020)|
+|3|21-01-2020|PHP Sample File|21-01-2020|[21-01-2020](https://github.com/nikhiltadikonda/PYCSLab/tree/master/21-01-2020)|
+|4|28-01-2020|Functions in Python|28-01-2020|[28-01-2020](https://github.com/nikhiltadikonda/RPCSLab/tree/master/Python%20Files/28-01-2020)|
 ### Behind the Repository
 Self Contribution played a major role for this repository.
 
