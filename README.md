@@ -16,7 +16,7 @@
 
 ### Index for Case Tools
 
-|S.No|Date Created|Name|Folder Name|Link|
+|S.No|Date Created|Name|Folder Name with Link|
 |---|---|---|---|---|
 
 ### Behind the Repository
