@@ -1,7 +1,7 @@
-# RPCS Lab (3rd Year 2nd Semester)
+# PYCT Lab (3rd Year 2nd Semester)
 
 ### Description
-* RPCS: Programming with Python and Case Tools Lab
+* PYCT: Programming with Python and Case Tools Lab
 * All Python executed Programs and Case Tools Diagrams are found here
 * Repo Updated every Tuesday.
 
@@ -16,8 +16,13 @@
 
 ### Index for Case Tools
 
+##### Note: The Diagrams are for ATM and Library
+
 |S.No|Date Created|Name|Folder Name with Link|
 |---|---|---|---|
+|1|17-12-2019|Use Case Diagrams|[17-12-2019](https://github.com/nikhiltadikonda/PYCSLab/tree/master/17B81A05F2/Case%20Tools/17-12-2019)|
+|2|07-01-2020|Class Diagrams|[07-01-2020](https://github.com/nikhiltadikonda/PYCSLab/tree/master/17B81A05F2/Case%20Tools/07-01-2020)|
+|3|11-02-2020|Sequence and Collaboration Diagrams|[11-02-2019](https://github.com/nikhiltadikonda/PYCSLab/tree/master/17B81A05F2/Case%20Tools/11-02-2020)|
 
 ### Behind the Repository
 Self Contribution played a major role for this repository.
