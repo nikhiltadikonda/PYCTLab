@@ -28,7 +28,7 @@
 Self Contribution played a major role for this repository.
 
 ### References
-Will be Updated Soon.....
+[Programming in Python3](https://github.com/nikhiltadikonda/PYCTLab/tree/master/References)
 
 ## Owner
 [nikhiltadikonda](https://github.com/nikhiltadikonda)
