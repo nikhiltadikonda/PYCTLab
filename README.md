@@ -1,7 +1,7 @@
 # PYCT Lab (3rd Year 2nd Semester)
 
 ### Description
-* PYCT: Programming with Python and Case Tools Lab
+* PYCT: Programming with Python, PHP and Case Tools Lab
 * All Python executed Programs and Case Tools Diagrams are found here
 * Repo Updated every Tuesday.
 
