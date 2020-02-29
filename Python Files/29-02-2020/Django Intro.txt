@@ -1,0 +1,99 @@
+1)Creating A Django Project:
+
+This is a basic Django project. First, create a directory in your desktop named, hello_world and navigate into it.
+
+	cd Desktop
+	mkdir hello_world 
+	cd hello_world
+
+Next, create a Django Project:
+
+		 Syntax: django-admin startproject hello_world_project
+
+Executing this will invoke the django-admin.py script which will set up a new Django project instance name hello_world_project in the hello_world directory.
+   hello_world_project/
+   manage.py
+   hello_world_project/
+      __init__.py
+      settings.py
+      urls.py
+      wsgi.py
+
+These files are as follows:
+
+· __init__.py: A file required for Python treat the directory as a package (i.e., a group of modules)
+
+· manage.py: A command-line utility that lets you interact with this Django project in various ways.You can read all the details about manage.py in django-admin and manage.py.
+ Syntax:python manage.py help
+
+· settings.py: Settings/configuration for this Django project.Django settings will tell you about how settings work.
+
+
+.urls.py: The URL declarations for this Django project.
+
+
+ Creating A Django App:
+
+	A Django project is a set of applications and configurations which combined make a full-fledged web application.
+
+	Django apps are the sub-directories inside the Django project. The purpose of Django applications is to perform a particular task
+
+	Syntax:
+		
+		python manage.py startapp my_app
+
+
+
+   There are lots of new files in the apps which we haven’t seen before in the project.
+
+	admin.py – File with admin definitions for the app – such definitions are needed to access model class instances from the Django admin
+
+	apps.py – File with configuration parameters for the app.
+
+	models.py – File with database definitions (i.e., model classes) for the app.
+
+	tests.py – File with test definitions for the app.
+
+	views.py – File with view definitions (i.e., controller methods) for the app.
+
+	migrations – The directory that contains migrations applied to the app’s database definitions (i.e., model classes).	
+
+
+	Now we need to add this app into the Installed apps list in Django’s settings so that Django can know about the 
+app.
+
+
+	Now open settings.py file and scroll to the INSTALLED_APPS section.
+
+  Add my_app below the preinstalled apps and save it. Note that user-defined apps should always be below the pre-installed apps because Django read the apps in the top to down fashion and our app may rely on the Django’s core apps.
+
+
+2)Creating Web App:
+		Let’s create our first view, open views.py file of my_app and add the below lines.
+
+	def index(request):
+    	    return HttpResponse('Hello,World!')
+
+   In the above Function First, we imported the HttpResponse class from django.http module then we made a function that takes in a request and returns a HttpResponse object i.e. the string ‘Hello, World!’. 
+
+Note that every view function must take atleast one parameter by convention called request.
+
+  Next step is : In order to see this view in our browser, we need to map this view in our URL configurations. 
+	Open the urls.py file of the main project.
+
+ Now we need to tell Django explicitly that we need to activate the view for a particular URL
+
+        from django.contrib import admin
+	from django.urls import path
+     #imported views
+        from my_app import views
+
+	urlpatterns = [
+    	path('admin/', admin.site.urls),
+    	# configured the url
+    	path('',views.index, name="homepage")
+	]
+
+ First, we imported the views from my_app directory then in the URL patterns we added the path for the view which is the homepage hence blank string denoted with ' ' than we mapped this URL to our index view, and at last the optional argument name which we assign to homepage. This implies every request to the homepage should return the ‘Hello, world!’ string.
+
+      Now let’s test out our app save the files open terminal and run the development server.
