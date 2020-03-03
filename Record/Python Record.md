@@ -153,9 +153,9 @@
 #### 13. Write a python program to read write and display contents of CSV files
 ```py
 ```
-#### 14. Sample Django App
+#### 14. Design a Sample Django App
 ```py
 ```
-#### 15. Sample ReactJS App
+#### 15. Design a Sample ReactJS App
 ```py
 ```
