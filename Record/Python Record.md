@@ -1,4 +1,4 @@
-# Python Record
+# Python Record - Nikhil Tadikonda
 #### 1. Write a PHP script to demonstrate any 5 string functions
 ```php
     <?php
@@ -25,6 +25,7 @@
 ```
 #### 3. Write a python program that takes input number as n and generate n prime numbers
 ```py
+
 ```
 #### 4. Write a python program that demonstrates list methods
 ```py
