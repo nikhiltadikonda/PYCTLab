@@ -10,6 +10,26 @@
 ```
 #### 4. Write a python program that demonstrates list methods
 ```py
+    #Append
+    a = ["bee", "moth"]
+    a.append("ant")
+    print(a)
+
+    #Insert
+    a.insert(4, "fly")
+    print(a)
+
+    #Clear
+    a.clear()
+    print(a)
+    a = ["bee", "moth","bee"]
+
+    #Count
+    print(a.count("bee"))
+
+    #sort
+    a.sort()
+    print(a)
 ```
 #### 5. Demonstrate Dictionary methods in python
 ```py
