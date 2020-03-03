@@ -13,14 +13,14 @@
 ```php
     #Indexed Arrays
     <?php
-    $cars = array("Volvo", "BMW", "Toyota");
-    echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
+    $songs = array("Classic", "Jazz", "Retro");
+    echo "I like " . $songs[0] . ", " . $songs[1] . " and " . $songs[2] . ".";
     ?>
 
     #Associative Arrays
     <?php
-    $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
-    echo "Peter is " . $age['Peter'] . " years old.";
+    $score = array("Kohli"=>"99", "Steve Smith"=>"50", "Dhoni"=>"100");
+    echo "Dhoni Scored " . $score['Dhoni'] . " runs.";
     ?>
 ```
 #### 3. Write a python program that takes input number as n and generate n prime numbers
