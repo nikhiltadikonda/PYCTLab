@@ -4,6 +4,17 @@
 ```
 #### 2. Write a PHP script to demonstrate indexed and associative arrays
 ```php
+    #Indexed Arrays
+    <?php
+    $cars = array("Volvo", "BMW", "Toyota");
+    echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
+    ?>
+
+    #Associative Arrays
+    <?php
+    $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+    echo "Peter is " . $age['Peter'] . " years old.";
+    ?>
 ```
 #### 3. Write a python program that takes input number as n and generate n prime numbers
 ```py
