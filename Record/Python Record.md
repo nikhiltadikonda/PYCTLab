@@ -152,6 +152,16 @@ print("List Generated: ",odd)
 ```
 #### 9. Write a python program that demonstrates try , except and finally using file operations
 ```py
+try:
+    f=open('sample.txt','w')
+    print("Welcome",file=f)
+    f.write("Line 2")
+    print(f.read())
+    f.close()
+except:
+    print("Error Occured")
+finally:
+    print("Finally Block Here")
 ```
 #### 10. Write a python program to implement single and multilevel inheritance
 ```py
