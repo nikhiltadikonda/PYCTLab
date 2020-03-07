@@ -165,12 +165,94 @@ finally:
 ```
 #### 10. Write a python program to implement single and multilevel inheritance
 ```py
+#Single Inheritance
+class Person(object): 
+    def __init__(self, name): 
+        self.name = name
+
+    def getName(self): 
+        return self.name 
+
+    def isStudent(self): 
+        return False
+
+class Student(Person):
+
+    def isStudent(self): 
+        return True
+
+emp = Person("Student1")
+print(emp.getName(), emp.isStudent()) 
+   
+emp = Student("Student2")
+print(emp.getName(), emp.isStudent()) 
+
+#Multilevel Inheritance
+class Base(object):
+    def __init__(self, name): 
+        self.name = name
+
+    def getName(self): 
+        return self.name
+
+class Child(Base): 
+
+    def __init__(self, name, age): 
+        Base.__init__(self, name) 
+        self.age = age
+
+    def getAge(self): 
+        return self.age 
+ 
+class GrandChild(Child): 
+
+    def __init__(self, name, age, address): 
+        Child.__init__(self, name, age) 
+        self.address = address 
+
+    def getAddress(self): 
+        return self.address         
+
+g = GrandChild("Geek1", 23, "Noida")   
+print(g.getName(), g.getAge(), g.getAddress()) 
 ```
 #### 11. Write a python program that demonstrates polymorphism using OOPS concepts
 ```py
+class Tesla(): 
+
+     def type(self): 
+       print("Car")
+
+     def use(self):
+       print("Driving")
+
+class Apple():
+
+     def type(self): 
+       print("Phone")
+ 
+     def use(self): 
+       print("Communication") 
+      
+def func(obj):
+       obj.type() 
+       obj.use()
+        
+obj_tesla = Tesla() 
+obj_apple = Apple() 
+func(obj_tesla) 
+func(obj_apple)
 ```
 #### 12. Write a python program that implements decorators in functions
 ```py
+def temperature(t):
+    def celsius2fahrenheit(x):
+        return 9 * x / 5 + 32
+
+    result = "It's " + str(celsius2fahrenheit(t)) + " degrees Farenheit" 
+    return result
+
+print(temperature(int(input('Enter Temperature in Celsius: '))))
 ```
 #### 13. Write a python program to read write and display contents of CSV files
 ```py
@@ -193,8 +275,7 @@ with open('names.csv','rt') as csvreadfile:
         print(row)
 ```
 #### 14. Design a Sample Django App
-```py
-```
+## Write your own steps to Design a Django App as demonstrated in the Lab. Click [HERE](https://github.com/nikhiltadikonda/PYCTLab/blob/master/Python%20Files/29-02-2020/projects_django.pdf) for Documentation Provided in the Lab.
 #### 15. Design a Sample ReactJS App
 ```py
 ```
