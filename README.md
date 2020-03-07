@@ -5,6 +5,26 @@
 * All Python executed Programs and Case Tools Diagrams are found here
 * Repo Updated every Tuesday.
 
+### Record Index (To be Updated completely soon)
+
+|Sr. No|Question|Date|File/Folder|
+|------|--------|----|-----------|
+|1. |Write a PHP script to demonstrate any 5 string functions|||
+|2. |Write a PHP script to demonstrate indexed and associative arrays|||
+|3. |Write a python program that takes input number as n and generate n prime numbers|||
+|4. |Write a python program that demonstrates list methods|
+|5. |Demonstrate Dictionary methods in python|
+|6. |Demonstrate Set methods in python|
+|7. |Demonstrate Tuple methods in python|
+|8. |Write a python program to implement list comprehension|
+|9. |Write a python program that demonstrates try, except and finally using file operations|
+|10.|Write a python program to implement single and multilevel inheritance|
+|11.|Write a python program that demonstrates polymorphism using OOPS concepts|
+|12.|Write a python program that implements decorators in functions|
+|13.|Write a python program to read write and display contents of CSV files|||
+|14.|Sample Django App|||
+|15.|Sample ReactJS App|||
+
 ### Index for Python and PHP Programs(Includes Django also)
 
 |S.No|Date Created|Name|Folder Name with Link|
