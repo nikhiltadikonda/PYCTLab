@@ -1,4 +1,4 @@
-# Python Record - Nikhil Tadikonda
+# Python Record
 #### 1. Write a PHP script to demonstrate any 5 string functions
 ```php
 <?php
@@ -277,5 +277,4 @@ with open('names.csv','rt') as csvreadfile:
 #### 14. Design a Sample Django App
 ## Write your own steps to Design a Django App as demonstrated in the Lab. Click [HERE](https://github.com/nikhiltadikonda/PYCTLab/blob/master/Python%20Files/29-02-2020/projects_django.pdf) for Documentation
 #### 15. Design a Sample ReactJS App
-```py
-```
+## Added Later
