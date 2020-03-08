@@ -198,7 +198,7 @@ class Base(object):
 class Child(Base): 
 
     def __init__(self, name, age): 
-        Base.__init__(self, name) 
+        super(Child,self).__init__(name) 
         self.age = age
 
     def getAge(self): 
@@ -207,7 +207,7 @@ class Child(Base):
 class GrandChild(Child): 
 
     def __init__(self, name, age, address): 
-        Child.__init__(self, name, age) 
+        super(GrandChild,self).__init__(name, age) 
         self.address = address 
 
     def getAddress(self): 
