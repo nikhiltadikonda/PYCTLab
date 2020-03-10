@@ -3,9 +3,13 @@
 ```php
 <?php
 echo strlen("Hello world!");
+echo "<br>";
 echo str_word_count("Hello world!");
+echo "<br>";
 echo strrev("Hello world!");
+echo "<br>";
 echo strpos("Hello world!", "world");
+echo "<br>";
 echo str_replace("world", "Dolly", "Hello world!");
 ?>
 ```
@@ -15,12 +19,14 @@ echo str_replace("world", "Dolly", "Hello world!");
 <?php
 $songs = array("Classic", "Jazz", "Retro");
 echo "I like " . $songs[0] . ", " . $songs[1] . " and " . $songs[2] . ".";
+echo "<br>";
 ?>
 
 #Associative Arrays
 <?php
 $score = array("Kohli"=>"99", "Steve Smith"=>"50", "Dhoni"=>"100");
 echo "Dhoni Scored " . $score['Dhoni'] . " runs.";
+echo "<br>";
 ?>
 ```
 #### 3. Write a python program that takes input number as n and generate n prime numbers
